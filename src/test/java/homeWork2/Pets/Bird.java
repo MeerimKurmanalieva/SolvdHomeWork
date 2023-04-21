@@ -1,4 +1,4 @@
-package HomeWork2.Pets;
+package homeWork2.Pets;
 
 public class Bird extends Pet {
     private String species;

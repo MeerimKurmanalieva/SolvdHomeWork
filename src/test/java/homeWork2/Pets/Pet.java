@@ -1,4 +1,6 @@
-package HomeWork2.Pets;
+package homeWork2.Pets;
+
+import java.util.Objects;
 
 public class Pet {
     public int age;
@@ -29,5 +31,7 @@ public class Pet {
     public void setColor(String color) {
         this.color = color;
     }
-}
+
+
+    }
 

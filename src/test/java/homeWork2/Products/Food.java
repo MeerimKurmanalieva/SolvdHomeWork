@@ -1,4 +1,4 @@
-package HomeWork2.Products;
+package homeWork2.Products;
 
 public class Food extends Product {
     private int quantity;

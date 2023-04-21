@@ -1,15 +1,15 @@
-package HomeWork2;
+package homeWork2;
 
-import HomeWork2.Persons.Employee;
-import HomeWork2.Persons.Owner;
-import HomeWork2.Persons.Person;
-import HomeWork2.Pets.Bird;
-import HomeWork2.Pets.Cat;
-import HomeWork2.Pets.Dog;
-import HomeWork2.Pets.Pet;
-import HomeWork2.Products.Food;
-import HomeWork2.Products.Product;
-import HomeWork2.Products.Toy;
+import homeWork2.Persons.Employee;
+import homeWork2.Persons.Owner;
+import homeWork2.Persons.Person;
+import homeWork2.Pets.Bird;
+import homeWork2.Pets.Cat;
+import homeWork2.Pets.Dog;
+import homeWork2.Pets.Pet;
+import homeWork2.Products.Food;
+import homeWork2.Products.Product;
+import homeWork2.Products.Toy;
 
 public class Main {
     public static void main(String[] args) {

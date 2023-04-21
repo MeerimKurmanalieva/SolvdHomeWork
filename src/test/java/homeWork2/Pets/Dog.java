@@ -1,8 +1,8 @@
-package HomeWork2.Pets;
+package homeWork2.Pets;
 
-public class Cat extends Pet { private String breed;
+public class Dog extends Pet {private String breed;
 
-    public Cat(String fluffy, int i, String persian, boolean b) {
+    public Dog(String buddy, int i, String labrador, String ball) {
         super();
     }
 
@@ -13,4 +13,5 @@ public class Cat extends Pet { private String breed;
     public void setBreed(String breed) {
         this.breed = breed;
     }
+
 }

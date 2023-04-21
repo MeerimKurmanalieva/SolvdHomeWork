@@ -1,4 +1,4 @@
-package HomeWork2.Persons;
+package homeWork2.Persons;
 
 public abstract class Person {
     private String name;

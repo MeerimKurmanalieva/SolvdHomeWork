@@ -1,4 +1,4 @@
-package HomeWork2.Persons;
+package homeWork2.Persons;
 
 public class Employee extends Person {
     private double salary;

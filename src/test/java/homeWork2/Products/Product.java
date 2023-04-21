@@ -1,4 +1,4 @@
-package HomeWork2.Products;
+package homeWork2.Products;
 
 public abstract class Product {
     private String name;

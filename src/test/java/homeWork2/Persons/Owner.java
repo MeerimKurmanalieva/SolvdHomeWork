@@ -1,6 +1,6 @@
-package HomeWork2.Persons;
+package homeWork2.Persons;
 
-import HomeWork2.Pets.Pet;
+import homeWork2.Pets.Pet;
 
 public class Owner extends Person {
     private Pet pet;

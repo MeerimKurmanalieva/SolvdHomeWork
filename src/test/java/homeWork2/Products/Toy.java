@@ -1,6 +1,4 @@
-package HomeWork2.Products;
-
-import HomeWork2.Products.Product;
+package homeWork2.Products;
 
 public class Toy extends Product {
     private String type;
