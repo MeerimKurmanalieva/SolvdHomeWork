@@ -4,7 +4,7 @@ public abstract class Fish extends Pet  {
     protected boolean isSaltwater;
 
     public Fish(String name, int age, boolean isSaltwater) {
-        super(name, age);
+        super(name, age, age, price);
         this.isSaltwater = isSaltwater;
     }
 

@@ -4,7 +4,7 @@ public abstract class Pet {
     protected String name;
     protected int age;
 
-    public Pet(String name, int age) {
+    public Pet(String name, int i, int age, double price) {
         this.name = name;
         this.age = age;
     }
@@ -60,6 +60,9 @@ public abstract class Pet {
         return true;
     }
 
+    public abstract int getStock();
+
+    public abstract void sell();
 
 
     public interface Domesticated {

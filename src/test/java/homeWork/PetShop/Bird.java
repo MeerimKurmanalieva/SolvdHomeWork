@@ -4,7 +4,7 @@ public class Bird extends Pet {
     private boolean canFly;
 
     public Bird(String name, int age, boolean canFly) {
-        super(name, age);
+        super(name, age, age, price);
         this.canFly = canFly;
     }
 

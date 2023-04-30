@@ -4,7 +4,7 @@ public class GuineaPig extends Pet {
     private boolean isLongHair;
 
     public GuineaPig(String name, int age, boolean isLongHair) {
-        super(name, age);
+        super(name, age, age, price);
         this.isLongHair = isLongHair;
     }
 

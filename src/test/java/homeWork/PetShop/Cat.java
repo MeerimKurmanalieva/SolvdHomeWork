@@ -4,7 +4,7 @@ public class Cat extends Pet {
     private boolean isIndoor;
 
     public Cat(String name, int age, boolean isIndoor) {
-        super(name, age);
+        super(name, age, age, price);
         this.isIndoor = isIndoor;
     }
 

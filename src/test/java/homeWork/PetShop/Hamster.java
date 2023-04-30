@@ -4,7 +4,7 @@ public class Hamster extends Pet {
     private int wheelSize;
 
     public Hamster(String name, int age, int wheelSize) {
-        super(name, age);
+        super(name, age, age, price);
         this.wheelSize = wheelSize;
     }
 

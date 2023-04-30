@@ -1,10 +1,12 @@
 package homeWork.PetShop;
 
 public class Snake extends Pet {
+
+    private static final double price =3 ;
     private boolean isVenomous;
 
     public Snake(String name, int age, boolean isVenomous) {
-        super(name, age);
+        super(name, age, age, price);
         this.isVenomous = isVenomous;
     }
 
@@ -19,5 +21,15 @@ public class Snake extends Pet {
     @Override
     public String makeSound() {
         return "Hiss Hiss";
+    }
+
+    @Override
+    public int getStock() {
+        return 1;
+    }
+
+    @Override
+    public void sell() {
+
     }
 }

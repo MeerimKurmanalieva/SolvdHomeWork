@@ -1,10 +1,11 @@
 package homeWork.PetShop;
 
 public abstract class Mammal extends Pet  {
+    private static final double price = 5;
     protected boolean isDomesticated;
 
     public Mammal(String name, int age, boolean isDomesticated) {
-        super(name, age);
+        super(name, age, age, price);
         this.isDomesticated = isDomesticated;
     }
 
