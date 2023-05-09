@@ -1,4 +1,4 @@
-package homeWork.PetShop;
+package OOP.PetShop;
 
 public class Snake extends Pet {
 

@@ -1,6 +1,7 @@
-package homeWork.PetShop;
+package OOP.PetShop;
 
 public class Hamster extends Pet {
+    private static final double price =2.7 ;
     private int wheelSize;
 
     public Hamster(String name, int age, int wheelSize) {
@@ -19,5 +20,15 @@ public class Hamster extends Pet {
     @Override
     public String makeSound() {
         return null;
+    }
+
+    @Override
+    public int getStock() {
+        return 0;
+    }
+
+    @Override
+    public void sell() {
+
     }
 }

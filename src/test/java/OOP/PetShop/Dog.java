@@ -1,4 +1,4 @@
-package homeWork.PetShop;
+package OOP.PetShop;
 
 public abstract class Dog extends Mammal {
     protected String breed;

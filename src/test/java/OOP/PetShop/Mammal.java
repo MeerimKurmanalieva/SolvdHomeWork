@@ -1,4 +1,4 @@
-package homeWork.PetShop;
+package OOP.PetShop;
 
 public abstract class Mammal extends Pet  {
     private static final double price = 5;

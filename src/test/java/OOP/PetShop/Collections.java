@@ -1,8 +1,4 @@
-package homeWork.PetShop;
-
-import homeWork.PetShop.MyLinkedList;
-import homeWork.PetShop.Pet;
-import homeWork.PetShop.PetNotFoundException;
+package OOP.PetShop;
 
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -1,6 +1,7 @@
-package homeWork.PetShop;
+package OOP.PetShop;
 
 public class GuineaPig extends Pet {
+    private static final double price =4.8 ;
     private boolean isLongHair;
 
     public GuineaPig(String name, int age, boolean isLongHair) {
@@ -19,5 +20,15 @@ public class GuineaPig extends Pet {
     @Override
     public String makeSound() {
         return null;
+    }
+
+    @Override
+    public int getStock() {
+        return 0;
+    }
+
+    @Override
+    public void sell() {
+
     }
 }

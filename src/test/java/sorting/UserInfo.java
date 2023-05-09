@@ -1,4 +1,4 @@
-package homeWork1;
+package sorting;
 
 public class UserInfo {
     public static void main(String[] args) {

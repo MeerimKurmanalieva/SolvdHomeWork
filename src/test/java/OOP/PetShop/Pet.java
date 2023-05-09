@@ -1,4 +1,4 @@
-package homeWork.PetShop;
+package OOP.PetShop;
 
 public abstract class Pet {
     protected String name;

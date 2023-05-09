@@ -1,6 +1,7 @@
-package homeWork.PetShop;
+package OOP.PetShop;
 
 public abstract class Fish extends Pet  {
+    private static final double price = 2.9;
     protected boolean isSaltwater;
 
     public Fish(String name, int age, boolean isSaltwater) {
