@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Patients -->
+    <xs:element name="Patients">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="patient_id" type="xs:int"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="date_of_birth" type="xs:date"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="phone_number" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Doctor -->
+    <xs:element name="Doctor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Doctor_id" type="xs:int"/>
+                <xs:element name="phone_number" type="xs:string"/>
+                <xs:element name="specialization" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Appointment -->
+    <xs:element name="Appointment">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="date" type="xs:date"/>
+                <xs:element name="time" type="xs:time"/>
+                <xs:element name="patient_id" type="xs:int"/>
+                <xs:element name="Patients_patient_id" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Prescription -->
+    <xs:element name="Prescription">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="prescription_id" type="xs:int"/>
+                <xs:element name="patient_id" type="xs:int"/>
+                <xs:element name="doctor_id" type="xs:int"/>
+                <xs:element name="date" type="xs:date"/>
+                <xs:element name="Patients_patient_id" type="xs:int"/>
+                <xs:element name="Doctor_Doctor_id" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Test -->
+    <xs:element name="Test">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="test_id" type="xs:int"/>
+                <xs:element name="doctor_id" type="xs:int"/>
+                <xs:element name="Doctor_Doctor_id" type="xs:int"/>
+                <xs:element name="patient_id" type="xs:int"/>
+                <xs:element name="Patients_patient_id" type="xs:int"/>
+                <xs:element name="test_date" type="xs:date"/>
+                <xs:element name="test_result" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

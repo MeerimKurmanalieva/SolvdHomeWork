@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mydb xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="mydb.xsd">
+
+    <!-- Patients -->
+    <Patients>
+        <patient_id>1</patient_id>
+        <name>John Doe</name>
+        <date_of_birth>1990-05-15</date_of_birth>
+        <address>123 Main St</address>
+        <phone_number>1234567890</phone_number>
+    </Patients>
+
+    <!-- Doctor -->
+    <Doctor>
+        <Doctor_id>1</Doctor_id>
+        <phone_number>9876543210</phone_number>
+        <specialization>Cardiology</specialization>
+    </Doctor>
+
+    <!-- Appointment -->
+    <Appointment>
+        <date>2023-06-01</date>
+        <time>09:30:00</time>
+        <patient_id>1</patient_id>
+        <Patients_patient_id>1</Patients_patient_id>
+    </Appointment>
+
+    <!-- Prescription -->
+    <Prescription>
+        <prescription_id>1</prescription_id>
+        <patient_id>1</patient_id>
+        <doctor_id>1</doctor_id>
+        <date>2023-06-02</date>
+        <Patients_patient_id>1</Patients_patient_id>
+        <Doctor_Doctor_id>1</Doctor_Doctor_id>
+    </Prescription>
+
+    <!-- Test -->
+    <Test>
+        <test_id>1</test_id>
+        <doctor_id>1</doctor_id>
+        <Doctor_Doctor_id>1</Doctor_Doctor_id>
+        <patient_id>1</patient_id>
+        <Patients_patient_id>1</Patients_patient_id>
+        <test_date>2023-06-03</test_date>
+        <test_result>Positive</test_result>
+    </Test>
+
+</mydb>
