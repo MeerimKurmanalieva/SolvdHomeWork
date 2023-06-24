@@ -1,0 +1,39 @@
+{
+  "patients": [
+    {
+      "patient_id": 1,
+      "name": "John Doe",
+      "date_of_birth": "1990-01-01",
+      "address": "123 Main St",
+      "phone_number": 123456789
+    }
+  ],
+  "doctor": {
+    "Doctor_id": 1,
+    "phone_number": 987654321,
+    "specialization": "Cardiology"
+  },
+  "appointment": {
+    "date": "2023-06-20",
+    "time": "2023-06-20T10:00:00",
+    "patient_id": "ABC123",
+    "Patients_patient_id": 1
+  },
+  "prescription": {
+    "prescription_id": 1,
+    "patient_id": "ABC123",
+    "doctor_id": "DOC456",
+    "date": "2023-06-20",
+    "Patients_patient_id": 1,
+    "Doctor_Doctor_id": 1
+  },
+  "test": {
+    "test_id": 1,
+    "doctor_id": "DOC456",
+    "Doctor_Doctor_id": 1,
+    "patient_id": "ABC123",
+    "Patients_patient_id": 1,
+    "test_date": "2023-06-20",
+    "test_result": "Positive"
+  }
+}

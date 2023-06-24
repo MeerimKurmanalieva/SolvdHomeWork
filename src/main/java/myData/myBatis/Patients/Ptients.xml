@@ -1,0 +1,32 @@
+<!-- PatientsMapper.xml -->
+<mapper namespace="myData.dao.PatientsMapper">
+    <!-- ResultMap and other existing mappings -->
+
+    <!-- Select operation -->
+    <select id="getPatientById" resultMap="PatientsResultMap">
+        SELECT *
+        FROM Patients
+        WHERE patient_id = #{patientId}
+    </select>
+
+    <!-- Insert operation -->
+    <insert id="insertPatient" parameterType="myData.JSON.Patients">
+        INSERT INTO Patients (patient_id, name, date_of_birth, address, phone_number)
+        VALUES (#{patientId}, #{name}, #{dateOfBirth}, #{address}, #{phoneNumber})
+    </insert>
+
+    <!-- Update operation -->
+    <update id="updatePatient" parameterType="myData.JSON.Patients">
+        UPDATE Patients
+        SET name = #{name}, date_of_birth = #{dateOfBirth}, address = #{address}, phone_number = #{phoneNumber}
+        WHERE patient_id = #{patientId}
+    </update>
+
+    <!-- Delete operation -->
+    <delete id="deletePatient" parameterType="int">
+        DELETE FROM Patients
+        WHERE patient_id = #{patientId}
+    </delete>
+
+    <!-- Add more CRUD operations as needed -->
+</mapper>
